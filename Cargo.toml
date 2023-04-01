@@ -7,7 +7,7 @@ edition = "2021"
 
 [dependencies]
 tokio = {version= "1.0.0", features = [
-    "rt", "macros", "io-util", "io-std"
+    "rt", "macros", "io-util", "io-std", "sync"
 ]}
 libp2p = {version= "0.50.0", features = [
     "ping", "tokio", "mdns", "identify", "noise", "tcp", "yamux", "kad", "request-response", "macros"

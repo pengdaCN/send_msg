@@ -8,7 +8,7 @@ pub struct MsgProto;
 
 impl codec::ProtocolName for MsgProto {
     fn protocol_name(&self) -> &[u8] {
-        b"/send_msg/1.0"
+        b"/msg/1.0"
     }
 }
 
